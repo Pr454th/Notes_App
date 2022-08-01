@@ -11,6 +11,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import kotlin.math.log
 
 var item=ArrayList<Note>()
+
 class MainActivity : AppCompatActivity() {
     private lateinit var recyclerView:RecyclerView
     override fun onCreate(savedInstanceState: Bundle?) {
